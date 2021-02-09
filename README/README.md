@@ -12,7 +12,7 @@
 
 - Exchange rate disclaimer is provided by [dollarclosing.com](http://www.dollarclosing.com/disclaimer.php)
 
-- link to [deployed](add vercel/github/heroku link here)
+- link to [deployed version on Vercel](https://curency-converter.bandeji.vercel.app/)
 
 
 ---
