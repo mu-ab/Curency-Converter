@@ -19,11 +19,11 @@
 
 ## Table of contents
 
-- Built with
-- Contributing
-- License
-- Contact
-- Acknowledgement
+- [Built with](#built-with)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Contact](#Contact)
+- [Acknowledgement](#Acknowledgement)
 
 ---
 
