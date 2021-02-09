@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <title>Currency converter</title>
+    </head>
+
+    <body>
+        <div class="modal">
+            <div class="modal-content">
+                <div class="modal-error">
+                    Something went wrong, please try again.
+                </div>
+                <div class="modal-loader">
+                    <img src="images/ajax-loader (1).gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="error"></div>
+            <header class="app-name">Currency Converter</header>
+
+            <small class="date">Thu, 23 January 2019.</small>
+
+
+            <div class="base-currency-wrapper">
+                <input type="number" class="base-currency-value" placeholder="Amount">
+                <div class="base-currency">
+                    <img class="from-country-flag" src="https://www.countryflags.io/us/flat/16.png" alt="">
+                    <select name="base-currency" class="base-currency-selectbox">
+                        <option value="US" data-rate="1">USD</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="conversion-icon">
+                <i class="fas fa-exchange-alt"></i>
+            </div>
+
+            <div class="to-currency-wrapper">
+                <img class="to-country-flag" alt="">
+                <select name="to-currency" id="" class="to-currency">
+                    <option value="">Select currency</option>
+                </select>
+            </div>
+
+            <input type="submit" value="CONVERT" class="convert">
+            <div class="loading-gif"><img src="images/ajax-loader (3).gif" alt=""></div>
+
+            <div class="rate-details">
+                <h4>Rate Details</h4>
+                <p class="Ex-rate">1 <span class="base">USD</span> = <span class="to">2 NGN</span></p>
+
+                <p class="rate">
+                    <span class="from-result"> dollar</span> = <span class="to-result">3 pounds</span>
+                </p>
+
+                <p class="rate-duration">
+                    Avg. <span class="base-currency-code">USD</span>/<span class="to-currency-code">EUR</span> for the
+                    2-hours period.
+                    <a href="http://www.dollarclosing.com/disclaimer.php" target="_blank"
+                        class="disclaimer">Disclaimer</a>
+                </p>
+                <small class="data-source">Data: <a href="https://www.mycurrency.net/" target="_blank">mycurrency</a>
+                    for
+                    currency and <a href="https://www.countryflags.io" target="_blank">countryflags</a> for
+                    flags</small>
+            </div>
+        </div>
+
+
+
+
+        <script type="module" src="JS/app.js"></script>
+    </body>
+
+</html>
